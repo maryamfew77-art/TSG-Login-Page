@@ -1,69 +1,40 @@
 # TSG Studio Login Page
 
-A clean, modern, and responsive login page developed using **HTML, CSS, and JavaScript** as part of a frontend development internship assignment.
-
-The project includes client-side authentication, password visibility toggle, Remember Me functionality, form validation, responsive design, animations, and a professional technology/engineering-themed UI.
-
----
-
-## 📌 Assignment Overview
-
-The objective of this assignment was to design and develop a complete login page using:
-
-- HTML
-- CSS
-- JavaScript
-
-The login page should provide a clean user interface, responsive behavior across devices, and working JavaScript-based authentication.
-
----
-
-## 🎯 Assignment Requirements
-
-The login page includes:
-
-- Website/Project logo
-- Username/Email input
-- Password input
-- Login button
-- Form validation
-- Login authentication
-- Success message
-- Invalid credentials message
-- Show/Hide password
-- Remember Me functionality
-- Forgot Password option
-- Enter key form submission
-- Responsive mobile design
-- Hover and click animations
-- Professional footer
-- Technology-themed background
-
----
+A responsive and modern login page built for a frontend internship assignment using **HTML, CSS, and JavaScript**.
 
 ## ✨ Features
 
-### 1. Login Form
+- Responsive design for desktop and mobile
+- Username/email and password validation
+- Show/Hide password
+- Remember Me functionality
+- Forgot Password message
+- Login success/error messages
+- Smooth hover and entrance animations
+- Professional technology-themed UI
 
-The login form contains:
+## 🛠️ Technologies
 
-- Email/Username field
-- Password field
-- Remember Me checkbox
-- Forgot Password link
-- Login button
+- HTML5
+- CSS3
+- JavaScript
+- LocalStorage
 
----
+## 🔐 Test Credentials
 
-### 2. Authentication
+**Email:** `intern@techsgstudio.com`  
+**Password:** `TSG@2026`
 
-The application validates the entered credentials using JavaScript.
-
-### Valid Credentials
+## 📁 Project Structure
 
 ```text
-Username/Email:
-intern@techsgstudio.com
+login-page/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+    ├── tsg-logo.png
+    └── tech-background.jpg
+🚀 Live Demo
 
-Password:
-TSG@2026
+View Live Website : https://tsg-login-page.netlify.app/
